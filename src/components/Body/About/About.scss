@@ -1,0 +1,81 @@
+:root {
+  --primaryColor: #deff58;
+  --hoverColor: #e0f780;
+  --paleColor: hsl(54, 75%, 89%);
+  --whiteColor: #eef3db;
+  --blackColor: hsl(0, 0%, 18%);
+  --textColor: hsl(240, 1%, 48%);
+  --bgColor: #022a30;
+  --cardColor: #033f47;
+  --greyText: rgb(190, 190, 190);
+  --inputColor: hsl(330, 12%, 97%);
+  --itemCardColor: hsl(120, 5%, 88%);
+  --itemCardHover: hsl(120, 27%, 87%);
+  --blueColor: hsl(198, 77%, 58%);
+
+  --main-font: "Playfair Display", serif;
+  --logo-font: "Neucha", cursive;
+  --biggestFontSize: 30px;
+  --h1FontSize: 25px;
+  --h2FontSize: 22px;
+  --h3FontSize: 20px;
+  --normalFontSize: 16px;
+  --smallFontSize: 14px;
+  --smallestFontSize: 10px;
+}
+
+.About {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  margin: 0 40px;
+  color: white;
+
+  .personal {
+    display: flex;
+    gap: 20px;
+    padding-top: 20px;
+    margin: 20px 0;
+
+    .p-left {
+      display: flex;
+      flex-direction: column;
+      flex-basis: 70%;
+      gap: 20px;
+
+      .bg-base {
+        background-color: var(--cardColor);
+        border-radius: 8px;
+        padding: 30px;
+
+        h3 {
+          font-size: var(--h2FontSize);
+          color: var(--primaryColor);
+          text-transform: uppercase;
+        }
+
+        p {
+          text-align: justify;
+        }
+      }
+
+      .resume {
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 15px;
+        gap: 15px;
+      }
+    }
+
+    .p-right {
+      flex-basis: 30%;
+      padding: 20px;
+
+      .rounded-circle {
+        width: 100%;
+        border-radius: 50%;
+        border: 8px solid var(--paleColor);
+      }
+    }
+  }
+}

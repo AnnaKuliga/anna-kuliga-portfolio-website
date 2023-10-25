@@ -1,0 +1,117 @@
+:root {
+  --primaryColor: #deff58;
+  --hoverColor: #e0f780;
+  --paleColor: hsl(54, 75%, 89%);
+  --whiteColor: #eef3db;
+  --blackColor: hsl(0, 0%, 18%);
+  --textColor: hsl(240, 1%, 48%);
+  --bgColor: #022a30;
+  --cardColor: #033f47;
+  --greyText: rgb(190, 190, 190);
+  --inputColor: hsl(330, 12%, 97%);
+  --itemCardColor: hsl(120, 5%, 88%);
+  --itemCardHover: hsl(120, 27%, 87%);
+  --blueColor: hsl(198, 77%, 58%);
+
+  --main-font: "Playfair Display", serif;
+  --logo-font: "Neucha", cursive;
+  --biggestFontSize: 30px;
+  --h1FontSize: 25px;
+  --h2FontSize: 22px;
+  --h3FontSize: 20px;
+  --normalFontSize: 16px;
+  --smallFontSize: 14px;
+  --smallestFontSize: 10px;
+}
+.hero {
+  display: flex;
+  justify-content: space-between;
+
+  .left {
+    padding: 10px;
+    flex-basis: 70%;
+
+    .hero-text {
+      margin-left: 40px;
+      margin-top: 100px;
+
+      .intro {
+        letter-spacing: 8px;
+        font-size: var(--h3FontSize);
+        color: var(--hoverColor);
+      }
+      h1 {
+        font-size: 50px;
+      }
+      p {
+        font-size: var(--h2FontSize);
+      }
+
+      .text-brand {
+        color: var(--primaryColor);
+        letter-spacing: 1px;
+      }
+
+      .contact {
+        margin-top: 40px;
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+
+        .tel {
+          max-width: 260px;
+          font-size: var(--h3FontSize);
+          letter-spacing: 4px;
+        }
+      }
+    }
+  }
+  .right {
+    position: absolute;
+    right: 0;
+    padding: 10px;
+    flex-basis: 30%;
+
+    .social {
+      margin-top: 10px;
+
+      .social-link {
+        margin-right: 20px;
+        width: 40px;
+        height: 40px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        background-color: var(--cardColor);
+        border-radius: 100%;
+        font-size: 24px;
+
+        .icon {
+          color: var(--greyText);
+        }
+        .icon:hover {
+          color: var(--blueColor);
+        }
+      }
+      .social-link:hover {
+        background-color: var(--itemCardHover);
+        transform: scale(1.1);
+      }
+
+      a {
+        .icon {
+          color: var(--greyText);
+        }
+      }
+    }
+
+    .hero-icon {
+      font-size: 350px;
+      color: var(--blueColor);
+      position: absolute;
+      top: 130px;
+      right: 100px;
+      animation: spin 16s infinite linear;
+    }
+  }
+}

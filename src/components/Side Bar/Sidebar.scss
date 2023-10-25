@@ -1,0 +1,90 @@
+:root {
+  --primaryColor: #deff58;
+  --hoverColor: #e0f780;
+  --paleColor: hsl(54, 75%, 89%);
+  --whiteColor: #eef3db;
+  --blackColor: hsl(0, 0%, 18%);
+  --textColor: hsl(240, 1%, 48%);
+  --bgColor: #022a30;
+  --cardColor: #033f47;
+  --greyText: rgb(190, 190, 190);
+  --inputColor: hsl(330, 12%, 97%);
+  --itemCardColor: hsl(120, 5%, 88%);
+  --itemCardHover: hsl(120, 27%, 87%);
+  --blueColor: hsl(198, 77%, 58%);
+
+  --main-font: "Playfair Display", serif;
+  --biggestFontSize: 30px;
+  --h1FontSize: 25px;
+  --h2FontSize: 22px;
+  --h3FontSize: 20px;
+  --normalFontSize: 16px;
+  --smallFontSize: 14px;
+  --smallestFontSize: 10px;
+}
+.sideBar {
+  background: linear-gradient(rgba(3, 63, 71, 0.6), rgba(3, 63, 71, 0.6)),
+    url(/src/assets/img/side_img.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 1px 0 4px var(--greyText);
+  width: 20%;
+  height: 100%;
+  gap: 3rem;
+  overflow: auto;
+
+  .logoDiv {
+    padding: 20px 20px 0;
+    cursor: pointer;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: var(--blackColor);
+
+    h2 {
+      font-size: var(--h2FontSize);
+    }
+    .logoName {
+      font-size: var(--smallestFontSize);
+    }
+  }
+
+  .menuDiv {
+    .menuLists {
+      .listItem {
+        padding: 3px 20px;
+        width: 100%;
+        position: relative;
+
+        &::before {
+          position: absolute;
+          content: "";
+          height: 0%;
+          left: 0;
+          width: 5px;
+          bottom: 0;
+          border-top-right-radius: 10px;
+          border-bottom-right-radius: 10px;
+          background: var(--primaryColor);
+        }
+
+        .menuLink {
+          color: var(--greyText);
+          font-weight: 500;
+
+          .icon {
+            margin-right: 4px;
+          }
+        }
+        &:hover .menuLink {
+          color: var(--primaryColor);
+          transition: 0;
+        }
+        &:hover::before {
+          height: 100%;
+          transition: all 0.3s ease;
+        }
+      }
+    }
+  }
+}

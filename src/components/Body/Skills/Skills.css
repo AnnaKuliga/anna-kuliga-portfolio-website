@@ -1,0 +1,78 @@
+:root {
+  --primaryColor: #deff58;
+  --hoverColor: #e0f780;
+  --paleColor: hsl(54, 75%, 89%);
+  --whiteColor: #eef3db;
+  --blackColor: hsl(0, 0%, 18%);
+  --textColor: hsl(240, 1%, 48%);
+  --bgColor: #022a30;
+  --cardColor: #033f47;
+  --greyText: rgb(190, 190, 190);
+  --inputColor: hsl(330, 12%, 97%);
+  --itemCardColor: hsl(120, 5%, 88%);
+  --itemCardHover: hsl(120, 27%, 87%);
+  --blueColor: hsl(198, 77%, 58%);
+  --main-font: "Playfair Display", serif;
+  --logo-font: "Neucha", cursive;
+  --biggestFontSize: 30px;
+  --h1FontSize: 25px;
+  --h2FontSize: 22px;
+  --h3FontSize: 20px;
+  --normalFontSize: 16px;
+  --smallFontSize: 14px;
+  --smallestFontSize: 10px;
+}
+
+.Skills {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  margin: 0 40px;
+}
+.Skills .skills-categories {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+.Skills .skills-categories .skills-card {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--cardColor);
+  padding: 25px;
+  color: white;
+  justify-content: space-between;
+  text-align: justify;
+  margin-top: 40px;
+}
+.Skills .skills-categories .skills-card .skill-icon {
+  width: 35px;
+  height: 35px;
+}
+.Skills .skills-categories .skills-card .skill-title {
+  font: bold;
+  font-size: var(--h2FontSize);
+}
+.Skills .skills-categories .skills-card .skill-description {
+  font-size: 15px;
+  line-height: 1.5;
+}
+.Skills .skills-categories .skills-card:hover {
+  background-color: var(--itemCardHover);
+  cursor: pointer;
+  color: var(--bgColor);
+}
+.Skills .icons {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  margin-bottom: 25px;
+}
+.Skills .icons .icon {
+  font-size: 45px;
+}
+.Skills .icons .icon:hover {
+  color: var(--hoverColor);
+  cursor: pointer;
+  transform: scasle(1.5);
+}/*# sourceMappingURL=Skills.css.map */

@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700;800&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Neucha&display=swap");
+
+:root {
+  --primaryColor: #deff58;
+  --hoverColor: #e0f780;
+  --paleColor: hsl(54, 75%, 89%);
+  --whiteColor: #eef3db;
+  --blackColor: hsl(0, 0%, 18%);
+  --textColor: hsl(240, 1%, 48%);
+  --bgColor: #033f47;
+  --greyText: rgb(190, 190, 190);
+  --inputColor: hsl(330, 12%, 97%);
+  --itemCardColor: hsl(120, 5%, 88%);
+  --itemCardHover: hsl(120, 27%, 87%);
+  --blueColor: hsl(198, 77%, 58%);
+
+  --main-font: "Playfair Display", serif;
+  --logo-font: "Neucha", cursive;
+  --biggestFontSize: 30px;
+  --h1FontSize: 25px;
+  --h2FontSize: 22px;
+  --h3FontSize: 20px;
+  --normalFontSize: 16px;
+  --smallFontSize: 14px;
+  --smallestFontSize: 10px;
+}
+.App {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  overflow: hidden;
+  font-family: var(--main-font);
+}
+::-webkit-scrollbar {
+  display: none;
+}
+a {
+  text-decoration: none;
+  color: var(--whiteColor);
+}
+.custom-link {
+  font-weight: 400;
+  position: relative;
+}
+.custom-link::after {
+  content: "";
+  width: 0%;
+  height: 2px;
+  background-color: var(--hoverColor);
+  position: absolute;
+  left: 0;
+  top: 110%;
+  transition: all 0.4s;
+}
+.custom-link:hover::after {
+  width: 100%;
+}
+li {
+  list-style: none;
+}
+.icon {
+  font-size: var(--h2FontSize);
+}
+.logoIcon {
+  font-size: 40px;
+  color: var(--blueColor);
+  padding: 2px;
+  animation: spin 16s infinite linear;
+}
+img {
+  width: 100%;
+  height: auto;
+}
+.flex {
+  display: flex;
+  align-items: center;
+}
+.grid {
+  display: grid;
+  align-items: center;
+  gap: 18px;
+}
+.stroke-text {
+  color: transparent;
+  font-size: 40px;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: white;
+}
+.container {
+  background: var(--bgColor);
+  color: var(--whiteColor);
+}
+.full-height {
+  min-height: 100vh;
+  height: 100%;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+}
+footer {
+  background-image: url(/src/assets/img/side_img.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@keyframes spin {
+  from {
+    transform: scale(1) rotate(0deg);
+  }
+  to {
+    transform: scale(1) rotate(360deg);
+  }
+}

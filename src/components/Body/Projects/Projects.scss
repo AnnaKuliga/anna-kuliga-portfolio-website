@@ -1,0 +1,77 @@
+:root {
+  --primaryColor: #deff58;
+  --hoverColor: #e0f780;
+  --paleColor: hsl(54, 75%, 89%);
+  --whiteColor: #eef3db;
+  --blackColor: hsl(0, 0%, 18%);
+  --textColor: hsl(240, 1%, 48%);
+  --bgColor: #022a30;
+  --cardColor: #033f47;
+  --greyText: rgb(190, 190, 190);
+  --inputColor: hsl(330, 12%, 97%);
+  --itemCardColor: hsl(120, 5%, 88%);
+  --itemCardHover: hsl(120, 27%, 87%);
+  --blueColor: hsl(198, 77%, 58%);
+
+  --main-font: "Playfair Display", serif;
+  --logo-font: "Neucha", cursive;
+  --biggestFontSize: 30px;
+  --h1FontSize: 25px;
+  --h2FontSize: 22px;
+  --h3FontSize: 20px;
+  --normalFontSize: 16px;
+  --smallFontSize: 14px;
+  --smallestFontSize: 10px;
+}
+.Projects {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 0 2rem;
+  margin: 0 40px;
+
+  .project-card {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+
+    .category {
+      display: flex;
+      flex-direction: column;
+      background-color: var(--cardColor);
+      padding: 20px;
+      gap: 20px;
+      color: white;
+      justify-content: space-between;
+      text-align: justify;
+
+      .name {
+        font-size: var(--h3FontSize);
+      }
+      .description {
+        font-size: 14px;
+      }
+      .project-link {
+        display: flex;
+
+        a {
+          padding: 10px;
+          color: var(--bgColor);
+          font-size: 21px;
+        }
+        a:hover {
+          cursor: pointer;
+          color: var(--blueColor);
+          transform: scale(1.2);
+        }
+      }
+    }
+    .category:hover {
+      background-color: var(--itemCardHover);
+      cursor: pointer;
+      color: var(--bgColor);
+    }
+  }
+}

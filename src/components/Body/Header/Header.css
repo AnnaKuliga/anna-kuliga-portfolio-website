@@ -1,0 +1,79 @@
+:root {
+  --primaryColor: #deff58;
+  --hoverColor: #e0f780;
+  --paleColor: hsl(54, 75%, 89%);
+  --whiteColor: #eef3db;
+  --blackColor: hsl(0, 0%, 18%);
+  --textColor: hsl(240, 1%, 48%);
+  --bgColor: #022a30;
+  --cardColor: #033f47;
+  --greyText: rgb(190, 190, 190);
+  --inputColor: hsl(330, 12%, 97%);
+  --itemCardColor: hsl(120, 5%, 88%);
+  --itemCardHover: hsl(120, 27%, 87%);
+  --blueColor: hsl(198, 77%, 58%);
+  --main-font: "Playfair Display", serif;
+  --logo-font: "Neucha", cursive;
+  --biggestFontSize: 30px;
+  --h1FontSize: 25px;
+  --h2FontSize: 22px;
+  --h3FontSize: 20px;
+  --normalFontSize: 16px;
+  --smallFontSize: 14px;
+  --smallestFontSize: 10px;
+}
+
+.Header .logoDiv {
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  color: var(--greyText);
+}
+.Header .logoDiv .name {
+  margin-left: 5px;
+}
+.Header .logoDiv .name h2 {
+  font-family: var(--main-font);
+  font-size: var(--h2FontSize);
+}
+.Header .logoDiv .name h2 .logo-text {
+  font-size: 10px;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+.Header .logoDiv .menu .header-menu {
+  display: flex;
+  gap: 10px;
+}
+.Header .logoDiv .menu .header-menu .listItem {
+  padding: 3px 10px;
+  width: 100%;
+  position: relative;
+}
+.Header .logoDiv .menu .header-menu .listItem::before {
+  position: absolute;
+  content: "";
+  height: 0%;
+  left: 0;
+  width: 5px;
+  top: 0;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  background: var(--primaryColor);
+}
+.Header .logoDiv .menu .header-menu .listItem .menuLink {
+  color: var(--greyText);
+  font-weight: 300;
+}
+.Header .logoDiv .menu .header-menu .listItem .menuLink .icon {
+  margin-right: 4px;
+}
+.Header .logoDiv .menu .header-menu .listItem:hover .menuLink {
+  color: var(--primaryColor);
+  transition: 0;
+}
+.Header .logoDiv .menu .header-menu .listItem:hover::before {
+  height: 100%;
+  transition: all 0.3s ease;
+}/*# sourceMappingURL=Header.css.map */
