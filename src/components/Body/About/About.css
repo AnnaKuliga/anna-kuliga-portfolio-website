@@ -61,6 +61,15 @@
   margin-right: 15px;
   gap: 15px;
 }
+.About .personal .p-left .resume a button {
+  padding: 10px 25px;
+  background-color: var(--whiteColor);
+  border: 2px solid var(--whiteColor);
+  border-radius: 5%;
+  color: var(--cardColor);
+  font-weight: bold;
+  letter-spacing: 1px;
+}
 .About .personal .p-right {
   flex-basis: 30%;
   padding: 20px;
