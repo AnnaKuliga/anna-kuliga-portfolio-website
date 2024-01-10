@@ -85,11 +85,10 @@
   color: var(--greyText);
 }
 .hero .right .social .social-link .icon:hover {
-  color: var(--blueColor);
+  color: var(--primaryColor);
 }
 .hero .right .social .social-link:hover {
-  background-color: var(--itemCardHover);
-  transform: scale(1.1);
+  transform: scale(1.5);
 }
 .hero .right .social a .icon {
   color: var(--greyText);

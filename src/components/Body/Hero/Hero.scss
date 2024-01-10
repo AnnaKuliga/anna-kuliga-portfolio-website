@@ -90,12 +90,11 @@
           color: var(--greyText);
         }
         .icon:hover {
-          color: var(--blueColor);
+          color: var(--primaryColor);
         }
       }
       .social-link:hover {
-        background-color: var(--itemCardHover);
-        transform: scale(1.1);
+        transform: scale(1.5);
       }
 
       a {
