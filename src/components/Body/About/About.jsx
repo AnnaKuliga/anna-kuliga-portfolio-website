@@ -48,7 +48,7 @@ const About = () => {
               <button class="btn btn-brand">CV</button>
             </a>
             <a
-              href="https://drive.google.com/file/d/10Cib-sEHm52YkQfAKseAvw9kE3tlI99s/view"
+              href="https://drive.google.com/file/d/1i6x3HQTbncVOgjFaIsOYm_yJKOfkAUXj/view"
               target="_blank"
               title="Download diplomas"
               rel="noreferrer"
