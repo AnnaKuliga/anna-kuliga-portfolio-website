@@ -1,6 +1,7 @@
 import React from "react";
 import "./Hero.css";
 import Header from "../Header/Header";
+import { TypeAnimation } from "react-type-animation";
 
 //imported icons ====>
 import { AiOutlineGithub } from "react-icons/ai";
@@ -18,8 +19,24 @@ const Hero = () => {
           <span className="intro">
             Let's make your website perfect together
           </span>
-          <h1>
-            I am <span class="text-brand">Frontend Developer</span>
+          <h1 class="text-brand">
+            <TypeAnimation
+              sequence={[
+                // Same substring at the start will only be typed out once, initially
+                "I am Frontend Developer",
+                1000, // wait 1s before replacing "Mice" with "Hamsters"
+                "I am React Developer",
+                1000,
+                "I am Photographer",
+                1000,
+                "Check it out!",
+                1000,
+              ]}
+              wrapper="span"
+              speed={50}
+              style={{ fontSize: "2em", display: "inline-block" }}
+              repeat={Infinity}
+            />
           </h1>
           <p>
             My name is Anna Kuliga and I am a React Developer, based in Europe.
