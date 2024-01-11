@@ -57,9 +57,6 @@ const About = () => {
             </a>
           </div>
         </div>
-        <div className="p-right">
-          <img src={anna} alt="Anna Kuliga" className="rounded-circle" />
-        </div>
       </div>
     </div>
   );

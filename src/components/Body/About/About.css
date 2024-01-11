@@ -32,15 +32,16 @@
 }
 .About .personal {
   display: flex;
-  gap: 20px;
-  padding-top: 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding-top: 10px;
   margin: 20px 0;
 }
 .About .personal .p-left {
   display: flex;
   flex-direction: column;
   flex-basis: 70%;
-  gap: 20px;
 }
 .About .personal .p-left .bg-base {
   background-color: var(--cardColor);
@@ -73,13 +74,4 @@
 .About .personal .p-left .resume a button:hover {
   cursor: pointer;
   transform: scale(1.1);
-}
-.About .personal .p-right {
-  flex-basis: 30%;
-  padding: 20px;
-}
-.About .personal .p-right .rounded-circle {
-  width: 100%;
-  border-radius: 50%;
-  border: 8px solid var(--paleColor);
 }/*# sourceMappingURL=About.css.map */
