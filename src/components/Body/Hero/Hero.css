@@ -85,7 +85,7 @@
   color: var(--greyText);
 }
 .hero .right .social .social-link .icon:hover {
-  color: var(--primaryColor);
+  color: var(--blueColor);
 }
 .hero .right .social .social-link:hover {
   transform: scale(1.5);
