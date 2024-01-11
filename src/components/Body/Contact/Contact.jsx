@@ -7,6 +7,7 @@ import { BsTelephone } from "react-icons/bs";
 import { AiOutlineGithub } from "react-icons/ai";
 import { BiLogoLinkedin } from "react-icons/bi";
 import { IoSchool } from "react-icons/io5";
+import { FaInstagram } from "react-icons/fa";
 
 const Contact = () => {
   return (
@@ -57,6 +58,15 @@ const Contact = () => {
             className="social-link"
           >
             <BiLogoLinkedin />
+          </a>
+          <a
+            href="https://www.instagram.com/youniverse_photography/"
+            title="Youniverse Photography"
+            target="_blank"
+            rel="noreferrer"
+            className="social-link"
+          >
+            <FaInstagram />
           </a>
           <a
             href="https://www.shecodes.io/graduates/57519-anna-kuliga"
