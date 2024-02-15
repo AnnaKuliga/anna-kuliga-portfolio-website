@@ -89,13 +89,19 @@
 
 @media screen and (max-width: 750px) {
   .Header {
-    padding: 20px;
+    position: fixed;
+    background-color: var(--cardColor);
+    border-radius: 5%;
+
     .logoDiv {
       .name {
         display: none;
       }
       .menu {
         .header-menu {
+          display: grid;
+          padding-left: 1px;
+
           .listItem {
             a {
               .smallText {

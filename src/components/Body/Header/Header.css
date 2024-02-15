@@ -80,10 +80,16 @@
 
 @media screen and (max-width: 750px) {
   .Header {
-    padding: 20px;
+    position: fixed;
+    background-color: var(--cardColor);
+    border-radius: 5%;
   }
   .Header .logoDiv .name {
     display: none;
+  }
+  .Header .logoDiv .menu .header-menu {
+    display: grid;
+    padding-left: 1px;
   }
   .Header .logoDiv .menu .header-menu .listItem a .smallText {
     display: none;

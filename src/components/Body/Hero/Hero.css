@@ -100,4 +100,10 @@
   top: 130px;
   right: 100px;
   animation: spin 16s infinite linear;
+}
+
+@media screen and (max-width: 750px) {
+  .hero .right {
+    display: none;
+  }
 }/*# sourceMappingURL=Hero.css.map */
