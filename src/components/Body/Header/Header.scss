@@ -86,3 +86,25 @@
     }
   }
 }
+
+@media screen and (max-width: 750px) {
+  .Header {
+    padding: 20px;
+    .logoDiv {
+      .name {
+        display: none;
+      }
+      .menu {
+        .header-menu {
+          .listItem {
+            a {
+              .smallText {
+                display: none;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

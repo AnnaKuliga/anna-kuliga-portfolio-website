@@ -76,4 +76,16 @@
 .Header .logoDiv .menu .header-menu .listItem:hover::before {
   height: 100%;
   transition: all 0.3s ease;
+}
+
+@media screen and (max-width: 750px) {
+  .Header {
+    padding: 20px;
+  }
+  .Header .logoDiv .name {
+    display: none;
+  }
+  .Header .logoDiv .menu .header-menu .listItem a .smallText {
+    display: none;
+  }
 }/*# sourceMappingURL=Header.css.map */
