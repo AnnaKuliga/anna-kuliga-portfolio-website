@@ -2,7 +2,7 @@ import React from "react";
 import "./Header.css";
 
 //imported icons ====>
-import { FaReact } from "react-icons/fa";
+
 import { AiOutlineHome } from "react-icons/ai";
 import { BsPerson } from "react-icons/bs";
 import { HiOutlineLightBulb } from "react-icons/hi";

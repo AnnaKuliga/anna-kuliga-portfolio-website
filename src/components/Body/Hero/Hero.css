@@ -103,7 +103,33 @@
 }
 
 @media screen and (max-width: 750px) {
-  .hero .right {
+  .hero .right .social {
     display: none;
+  }
+  .hero .right .hero-icon {
+    position: absolute;
+    font-size: 50px;
+    top: 20px;
+    right: 20px;
+  }
+}
+@media screen and (max-width: 540px) {
+  .hero .left .hero-text {
+    padding-left: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .hero .left .hero-text .intro {
+    font-size: var(--smallFontSize);
+  }
+  .hero .left .hero-text .text-brand {
+    font-size: var(--smallFontSize);
+  }
+  .hero .left .hero-text p {
+    font-size: var(--smallestFontSize);
+  }
+  .hero .left .hero-text .contact .tel {
+    font-size: var(--normalFontSize);
   }
 }/*# sourceMappingURL=Hero.css.map */

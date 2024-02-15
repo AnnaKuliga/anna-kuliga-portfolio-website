@@ -20,6 +20,9 @@ const Hero = () => {
           <span className="intro">
             Let's make your website perfect together
           </span>
+          <p>
+            My name is Anna Kuliga and I am a React Developer, based in Europe.
+          </p>
           <h1 class="text-brand">
             <TypeAnimation
               sequence={[
@@ -39,9 +42,6 @@ const Hero = () => {
               repeat={Infinity}
             />
           </h1>
-          <p>
-            My name is Anna Kuliga and I am a React Developer, based in Europe.
-          </p>
           <div className="contact">
             <a href="tel:+48 785 036 017" className="tel custom-link">
               Call +48 785 036 017

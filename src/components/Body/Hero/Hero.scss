@@ -117,10 +117,44 @@
 
 @media screen and (max-width: 750px) {
   .hero {
-    .left {
-    }
     .right {
-      display: none;
+      .social {
+        display: none;
+      }
+      .hero-icon {
+        position: absolute;
+        font-size: 50px;
+        top: 20px;
+        right: 20px;
+      }
+    }
+  }
+}
+@media screen and (max-width: 540px) {
+  .hero {
+    .left {
+      .hero-text {
+        padding-left: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        .intro {
+          font-size: var(--smallFontSize);
+        }
+        .text-brand {
+          font-size: var(--smallFontSize);
+        }
+
+        p {
+          font-size: var(--smallestFontSize);
+        }
+        .contact {
+          .tel {
+            font-size: var(--normalFontSize);
+          }
+        }
+      }
     }
   }
 }
