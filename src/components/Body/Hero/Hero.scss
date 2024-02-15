@@ -115,21 +115,35 @@
   }
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 1250px) {
   .hero {
     .right {
+      .hero-icon {
+        font-size: 250px;
+      }
       .social {
         display: none;
       }
       .hero-icon {
         position: absolute;
         font-size: 50px;
-        top: 20px;
-        right: 20px;
+        top: 30px;
+        right: 30px;
       }
     }
   }
 }
+
+@media screen and (max-width: 800px) {
+  .hero {
+    .left {
+      .hero-text {
+        padding-left: 30px;
+      }
+    }
+  }
+}
+
 @media screen and (max-width: 540px) {
   .hero {
     .left {
