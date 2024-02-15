@@ -45,16 +45,16 @@
 }
 .About .personal .p-left .bg-base {
   background-color: var(--cardColor);
-  border-radius: 8px;
   padding: 30px;
 }
 .About .personal .p-left .bg-base h3 {
-  font-size: var(--h2FontSize);
+  font-size: var(--h1FontSize);
   color: var(--primaryColor);
   text-transform: uppercase;
 }
 .About .personal .p-left .bg-base p {
   text-align: justify;
+  font-size: 18px;
 }
 .About .personal .p-left .resume {
   display: flex;
@@ -74,4 +74,41 @@
 .About .personal .p-left .resume a button:hover {
   cursor: pointer;
   transform: scale(1.1);
+}
+
+@media (max-width: 800px) {
+  .About {
+    margin: 0 10px;
+  }
+  .About .personal .p-left .bg-base {
+    padding: 15px;
+  }
+  .About .personal .p-left .bg-base h3 {
+    font-size: var(--h2FontSize);
+  }
+  .About .personal .p-left .bg-base p {
+    font-size: var(--smallFontSize);
+  }
+  .About .personal .p-left .resume {
+    display: flex;
+    justify-content: center;
+  }
+  .About .personal .p-left .resume a button {
+    border: 1px solid var(--whiteColor);
+    border-radius: 5%;
+    color: var(--cardColor);
+    font-weight: bold;
+    font-size: var(--smallestFontSize);
+    letter-spacing: 1px;
+    padding: 5px 12px;
+  }
+}
+@media (max-width: 400px) {
+  .About .personal .p-left .bg-base h3 {
+    font-size: var(--normalFontSize);
+  }
+  .About .personal .p-left .bg-base p {
+    letter-spacing: 1px;
+    font-size: var(--smallestFontSize);
+  }
 }/*# sourceMappingURL=About.css.map */
