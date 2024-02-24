@@ -30,7 +30,17 @@
   margin: 0 40px;
   color: var(--whiteColor);
 }
-.Footer .footer-content {
+.Footer .footer-div .footer-content {
   margin: 5px;
   letter-spacing: 2px;
+  font-size: var(--h3FontSize);
+}
+
+@media screen and (max-width: 800px) {
+  .Footer {
+    margin: 10px auto;
+  }
+  .Footer .footer-div .footer-content {
+    font-size: var(--smallestFontSize);
+  }
 }/*# sourceMappingURL=Footer.css.map */

@@ -5,8 +5,8 @@ import { AiOutlineCopyrightCircle } from "react-icons/ai";
 const Footer = () => {
   return (
     <div className="Footer" id="footer">
-      <div>
-        <p>
+      <div className="footer-div">
+        <p className="footer-content">
           {" "}
           <AiOutlineCopyrightCircle /> Coded by Anna Kuliga.
         </p>
