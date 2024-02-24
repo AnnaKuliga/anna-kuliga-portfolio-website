@@ -75,3 +75,16 @@
     }
   }
 }
+
+@media screen and (max-width: 800px) {
+  .Projects {
+    padding-left: 30px;
+
+    .project-card {
+      margin: 15px auto;
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 1rem;
+    }
+  }
+}
