@@ -120,6 +120,9 @@
   .hero .left .hero-text {
     padding-left: 30px;
   }
+  .hero .left .hero-text .contact .tel {
+    font-size: var(--normalFontSize);
+  }
 }
 @media screen and (max-width: 540px) {
   .hero .left .hero-text {
@@ -127,6 +130,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    text-align: justify;
   }
   .hero .left .hero-text .intro {
     font-size: var(--smallFontSize);
@@ -135,9 +139,9 @@
     font-size: var(--smallFontSize);
   }
   .hero .left .hero-text p {
-    font-size: var(--smallestFontSize);
+    font-size: var(--smallFontSize);
   }
   .hero .left .hero-text .contact .tel {
-    font-size: var(--normalFontSize);
+    font-size: var(--smallFontSize);
   }
 }/*# sourceMappingURL=Hero.css.map */

@@ -139,6 +139,12 @@
     .left {
       .hero-text {
         padding-left: 30px;
+
+        .contact {
+          .tel {
+            font-size: var(--normalFontSize);
+          }
+        }
       }
     }
   }
@@ -152,6 +158,7 @@
         display: flex;
         flex-direction: column;
         justify-content: space-between;
+        text-align: justify;
 
         .intro {
           font-size: var(--smallFontSize);
@@ -161,11 +168,11 @@
         }
 
         p {
-          font-size: var(--smallestFontSize);
+          font-size: var(--smallFontSize);
         }
         .contact {
           .tel {
-            font-size: var(--normalFontSize);
+            font-size: var(--smallFontSize);
           }
         }
       }
