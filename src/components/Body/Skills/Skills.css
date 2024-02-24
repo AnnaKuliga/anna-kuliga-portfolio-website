@@ -50,7 +50,7 @@
   height: 35px;
 }
 .Skills .skills-categories .skills-card .skill-title {
-  font: bold;
+  font-weight: bold;
   font-size: var(--h2FontSize);
 }
 .Skills .skills-categories .skills-card .skill-description {
@@ -74,5 +74,17 @@
 .Skills .icons .icon:hover {
   color: var(--hoverColor);
   cursor: pointer;
-  transform: scasle(1.5);
+  transform: scale(1.5);
+}
+
+@media screen and (max-width: 800px) {
+  .Skills {
+    padding-left: 30px;
+  }
+  .Skills .skills-categories {
+    flex-wrap: wrap;
+  }
+  .Skills .icons {
+    flex-wrap: wrap;
+  }
 }/*# sourceMappingURL=Skills.css.map */

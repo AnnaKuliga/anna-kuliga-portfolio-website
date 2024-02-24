@@ -50,7 +50,7 @@
         height: 35px;
       }
       .skill-title {
-        font: bold;
+        font-weight: bold;
         font-size: var(--h2FontSize);
       }
       .skill-description {
@@ -77,7 +77,21 @@
     .icon:hover {
       color: var(--hoverColor);
       cursor: pointer;
-      transform: scasle(1.5);
+      transform: scale(1.5);
+    }
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .Skills {
+    padding-left: 30px;
+
+    .skills-categories {
+      flex-wrap: wrap;
+    }
+
+    .icons {
+      flex-wrap: wrap;
     }
   }
 }
