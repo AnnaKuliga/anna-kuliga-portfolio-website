@@ -36,6 +36,7 @@
       font-size: 35px;
     }
     h5 {
+      text-align: justify;
       font-size: 18px;
     }
     h6 {
@@ -64,6 +65,37 @@
       }
       a:hover {
         color: var(--blueColor);
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .Contact {
+    padding-left: 30px;
+
+    .contact-info {
+      h2 {
+        font-size: 22px;
+      }
+      h5 {
+        font-size: 15px;
+      }
+      h6 {
+        font-size: 13px;
+      }
+      .phone {
+        a {
+          font-size: 13px;
+        }
+      }
+      .social-links {
+        flex-wrap: wrap;
+
+        a {
+          font-size: 18px;
+          padding: 5px;
+        }
       }
     }
   }

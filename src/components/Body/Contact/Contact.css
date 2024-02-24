@@ -35,6 +35,7 @@
   font-size: 35px;
 }
 .Contact .contact-info h5 {
+  text-align: justify;
   font-size: 18px;
 }
 .Contact .contact-info h6 {
@@ -60,4 +61,29 @@
 }
 .Contact .contact-info .social-links a:hover {
   color: var(--blueColor);
+}
+
+@media screen and (max-width: 800px) {
+  .Contact {
+    padding-left: 30px;
+  }
+  .Contact .contact-info h2 {
+    font-size: 22px;
+  }
+  .Contact .contact-info h5 {
+    font-size: 15px;
+  }
+  .Contact .contact-info h6 {
+    font-size: 13px;
+  }
+  .Contact .contact-info .phone a {
+    font-size: 13px;
+  }
+  .Contact .contact-info .social-links {
+    flex-wrap: wrap;
+  }
+  .Contact .contact-info .social-links a {
+    font-size: 18px;
+    padding: 5px;
+  }
 }/*# sourceMappingURL=Contact.css.map */
