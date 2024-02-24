@@ -51,9 +51,10 @@ const Skills = () => {
           </div>
           <div className="skill-description">
             <p>
-              Do you need help with writing blogs, post, and publications? Give
-              me the topic and you will find aa well-written and captivating
-              text. If you need a professional resume, we can work on it, too.
+              Let's work together to make your own, personalised and fully
+              responsive React website. Do you have some ideas how to make your
+              website but do not know how to make a project? I am here to help
+              with Figma projects.
             </p>
           </div>
         </div>
@@ -66,11 +67,9 @@ const Skills = () => {
           </div>
           <div className="skill-description">
             <p>
-              My passion for photography started in high school. I love taking
-              photos of nature. When I travel, I always take my camera with me.
-              You can see some of my photos on my professional Instagram
-              account. I encourage you to follow it and if you like what you
-              see, let us talk about cooperation.
+              Do you need help with writing blogs, post, and publications? Give
+              me the topic and you will find aa well-written and captivating
+              text. If you need a professional resume, we can work on it, too.
             </p>
           </div>
         </div>
