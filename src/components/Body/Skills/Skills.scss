@@ -88,6 +88,15 @@
 
     .skills-categories {
       flex-wrap: wrap;
+
+      .skills-card {
+        .skill-icon {
+          font-size: var(--normalFontSize);
+        }
+        .skill-title {
+          font-size: var(--normalFontSize);
+        }
+      }
     }
 
     .icons {

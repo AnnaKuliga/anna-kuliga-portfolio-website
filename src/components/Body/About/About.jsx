@@ -23,7 +23,7 @@ const About = () => {
           </span>
           <span className="bg-base">
             <h3>Career</h3>
-            <p className="career">
+            <p className="text">
               Right after graduating the university, I set up my own company.
               Youniverse Language Academy is a language school based in
               podkarpackie region. Recently, I have found myself really into

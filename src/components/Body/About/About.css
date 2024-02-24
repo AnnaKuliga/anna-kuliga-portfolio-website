@@ -107,8 +107,8 @@
   .About .personal .p-left .bg-base h3 {
     font-size: var(--normalFontSize);
   }
-  .About .personal .p-left .bg-base p {
+  .About .personal .p-left .bg-base .text {
     letter-spacing: 1px;
-    font-size: var(--smallestFontSize);
+    font-size: var(--smallFontSize);
   }
 }/*# sourceMappingURL=About.css.map */
